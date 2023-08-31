@@ -13,6 +13,20 @@ sidebar {
     color: white;
 }
 
+#dashboard>img {
+    width: 50px;
+    margin: 5px 10px 5px 20px;
+    filter: invert(99%) sepia(8%) saturate(242%) hue-rotate(65deg) brightness(118%) contrast(100%);
+    vertical-align: middle;
+}
+
 ul {
     list-style-type: none;
+}
+
+li>img {
+    width: 20px;
+    margin-right: 20px;
+    filter: invert(99%) sepia(8%) saturate(242%) hue-rotate(65deg) brightness(118%) contrast(100%);
+    vertical-align: middle;
 }
